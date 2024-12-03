@@ -10,12 +10,14 @@
 header {
   height: 400px;
   background-color: #303030;
+
+  cursor: default;
 }
 
 .headerH1 {
   padding: 150px 0 0 5%;
 
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 600;
   font-family: "inter";
 
@@ -25,7 +27,7 @@ header {
   padding: 20px 0 0 5%;
 
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "inter";
 
   color: #ffffffff;
@@ -42,4 +44,107 @@ header {
   background-color: #f9f9f9;
 
   font-family: "inter";
+
+  cursor: default;
+}
+
+/* MAIN */
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  font-family: "inter";
+  cursor: default;
+}
+
+#responsiveMain {
+  max-width: 100%;
+  height: auto;
+}
+
+#textMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#h1Main {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+#pMain {
+  margin-top: 52px;
+
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#imgMain {
+  display: flex;
+  justify-content: center;
+  margin: 10% 0 10% 0;
+}
+
+/* Form */
+
+form {
+  padding: 8% 0 8% 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: #303030;
+}
+
+h2 {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 30px;
+
+  color: #ffffffff;
+
+  margin-bottom: 25%;
+
+  cursor: default;
+}
+
+input {
+  width: 320px;
+  height: 28px;
+
+  padding: 10px;
+  margin-bottom: 50px;
+
+  border-radius: 10px;
+  border: 0;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+
+  font-family: "inter";
+  font-size: 20px;
+  font-weight: 700;
+
+  color: #ffffffff;
+  background-color: #c07212;
+
+  border: 0;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-8px);
+  transition-duration: 0.5s;
+  box-shadow: 0 15px 12px -10px rgba(255, 255, 255, 0.527);
 }
