@@ -6,11 +6,11 @@ link sheet monkey: https://docs.google.com/spreadsheets/d/1tR1KEtFUDNNdf0MiUcBrp
 (in English)
 About the landing-page
 A simple landing-page but with unique details, the first activity (worth a note) that the DNC school challenged me to do,
-I put some additional things that they didn't ask for, but that I thought it was necessary to put to make the landing-page with
+I put some additional things that they didn't ask for, one of them was responsiveness on the site, but that I thought it was necessary to put to make the landing-page with
 a unique style.
 
 (Em portugues)
 Sobre a landing-page 
 Uma simples landing-page, mas com detalhes únicos, a primeira atividade (digna de nota) que a escola DNC me desafiou a fazer,
-Coloquei algumas coisas adicionais que eles não pediram, mas que achei necessário colocar para fazer a landing-page com
+Coloquei algumas coisas adicionais que eles não pediram, uma delas foi responsividade no site, mas que achei necessário colocar para fazer a landing-page com
 um estilo único.
