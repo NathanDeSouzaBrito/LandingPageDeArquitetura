@@ -148,3 +148,118 @@ button:hover {
   transition-duration: 0.5s;
   box-shadow: 0 15px 12px -10px rgba(255, 255, 255, 0.527);
 }
+
+/* Responsive */
+
+@media (max-width: 1200px) {
+  #textMain {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #responsiveMain {
+    margin-right: 20px;
+    width: 400px;
+  }
+
+  #pMain {
+    font-size: 20px;
+    font-weight: 200;
+  }
+}
+
+@media (max-width: 810px) {
+  .headerH1 {
+    font-size: 35px;
+  }
+
+  .headerP {
+    font-size: 18px;
+  }
+
+  .h1Info {
+    font-size: 22px;
+  }
+
+  .pInfo {
+    font-size: 14px;
+    font-weight: 280;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  #h1Main {
+    font-size: 30px;
+    font-weight: 480;
+  }
+
+  #pMain {
+    font-size: 18px;
+  }
+
+  #responsiveMain {
+    width: 85%;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-weight: 400;
+
+    margin-bottom: 50px;
+  }
+
+  input {
+    height: 20px;
+    width: 300px;
+  }
+
+  button {
+    height: 48px;
+    width: 150px;
+
+    font-size: 19px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 580px) {
+  .pInfo {
+    font-size: 13px;
+  }
+
+  #h1Main {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  #pMain {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  #responsiveMain {
+    width: 85%;
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  input {
+    height: 15px;
+    width: 200px;
+
+    font-size: 15px;
+  }
+
+  button {
+    height: 40px;
+    width: 150px;
+
+    font-size: 15px;
+  }
+}
